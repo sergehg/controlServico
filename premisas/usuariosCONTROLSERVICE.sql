@@ -1,0 +1,5 @@
+GRANT ALL PRIVILEGES ON  controlservice.* TO 'sergio'@'localhost' IDENTIFIED BY '2274' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON  controlservice.* TO 'sergio'@'%' IDENTIFIED BY '2274' WITH GRANT OPTION;
+
+GRANT SELECT,INSERT,UPDATE,DELETE ON controlservice.* TO 'prueba'@'localhost' IDENTIFIED BY '2274';
+GRANT SELECT,INSERT,UPDATE,DELETE ON controlservice.* TO 'prueba'@'%' IDENTIFIED BY '2274';

@@ -1,0 +1,14 @@
+Modificar estado solicitud
+
+*si no tiene permisos de administrador 
+ solo podra modificar el estado de solicitud del estado 0 al 1;
+
+*si solo tiene permisos de administrador
+ puede cambiar el estado de solicitud casi a cualquier estado excepto el 0
+ si esta en el estado 1 solo puede cambiarla al estado 2 o al -1
+ si esta en el estado 2 ya no puede cambiar el estado a -1 o algun numero inferior que el 2, solo podra cambiarla al numero consecutivo  y así sucesivamente
+ 
+ 
+ 
+ 
+ 

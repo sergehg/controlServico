@@ -1,0 +1,225 @@
+/** { margin: 0; padding: 0; }*/
+.yellow-left	{
+	background: url(../images/table/message_yellow.gif) top left no-repeat;
+	color: #e79300;
+	font-family: "Trebuchet MS", Verdana;
+	font-weight: bold;
+	padding: 0 0 0 20px;
+	}
+.yellow-left a	{
+	color: #e79300;
+	font-family: "Trebuchet MS", Verdana;
+	font-weight: normal;
+	text-decoration: underline;
+	}
+.yellow-right a	{
+	cursor: pointer;
+	}
+.yellow-right	{
+	width: 55px;
+	}
+/* -------------- */	
+.blue-left	{
+	background: url(../images/table/message_blue.gif) top left no-repeat;
+	color: #2e74b2;
+	font-family: "Trebuchet MS", Verdana;
+	font-weight: bold;
+	padding: 0 0 0 20px;
+	}
+.blue-left a	{
+	color: #2e74b2;
+	font-family: "Trebuchet MS", Verdana;
+	font-weight: normal;
+	text-decoration: underline;
+	}
+.blue-right a	{
+	cursor: pointer;
+	}
+.blue-right	{
+	width: 55px;
+	}
+/* -------------- */	
+.green-left {
+    background: url(../images/table/message_green.gif) repeat;
+    color: #6da827;
+    font-family: "Trebuchet MS", Verdana;
+    font-weight: bold;
+	}
+
+.red-left	{
+	background: url(../images/table/message_red.gif) top left no-repeat;
+	color: #ce2700;
+	font-family: "Trebuchet MS", Verdana;
+	font-weight: bold;
+	padding: 0 0 0 20px;
+	}
+/* -------------- */	
+* html{
+    width: 100%;
+    overflow: hidden;
+	}
+
+*  body{
+
+    background-color:#FBFBFB;
+    background-size:100% 100%;
+    background-attachment:fixed;
+    font-family: "Trebuchet MS", Verdana;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+	}
+a {
+	outline: none;
+	outline-style: none;
+	text-decoration: none;
+	}
+a img{
+    border:none;
+	text-decoration:none;
+	}
+a.active:link, a.active:active, a.active:visited	{	
+	color: #fff !important;
+	text-shadow: 0px -1px 1px #000!important;
+	}
+h1	{
+	color: #222222;
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: normal;
+	}
+h2	{
+	color: #393939;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-bottom: 10px;
+	}
+h3	{
+	color: #92b22c;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	margin-bottom: 10px;
+	}
+div#cargador{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: none;
+	opacity: .8;
+	z-index: 1;
+	display: none;
+	}
+div#cargador div#espera{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -5%;
+	margin-top: -6%;
+	}
+div#cargador div#espera span.TextoEspera{
+	color: #D1CFCF;
+	font-size: 110%;
+	margin-left: -45%;
+	}
+div#cargador div#espera div#imgEspera{
+	box-shadow: 0 0 10px 5px  #D9D6EC;
+	background: url(../images/iconosChicos/cargando.gif) no-repeat ;
+	height:50px;
+	width:50px;
+	background-size: 100% 100%;
+	margin-top: 5%;
+	}
+/* ------------------ */
+.contenedorEmergente{
+	position: absolute;
+	width: 100%;
+	height: 200%;
+	background: url('../images/bgEmergente.png') repeat ;
+	z-index: 1;
+	display: none;
+	}
+.contenedorEmergente div#table-content{
+	position: absolute;
+	line-height: 16px;
+	min-width: 70%;
+	max-width:90%;
+	min-height: 50%;
+	max-height: 60%;
+  	top: 9%;
+  	left: 14%;
+  	
+  	background:#ffffff url('../images/bgEmergente.png') repeat ;
+  	
+
+  	}
+
+
+/* -----------------  */
+
+#cabecera{
+    position: relative;
+	min-width: 850px;
+    min-height:30px;
+    width: 100%;
+   	margin: 0 auto;
+	background-color: #F1F1F1;
+	margin-bottom: 10px;
+	}    
+
+#logo{
+	float: left;
+	width: 20%;
+	margin-top: -20px;
+	margin-right: 10px;
+	background-color: #FFFFFF;
+	}      
+#logo	a{
+	outline: none;
+	}
+#logo a img {
+	float: left;
+	margin-right: 30px;
+	}
+a#logout{ 
+	color: #D14836;
+	text-decoration: none;
+	}
+div#datosUser  {
+	font-size: 11px;
+	}
+div#datosUser ul {
+	margin-left: 20px;
+	}
+div#datosUser ul li{
+	list-style-type: none;
+	}
+#menu{
+    height: 25px;
+    margin-top: -20px;
+	}
+#menu a { outline: none; }
+#page-heading{
+    width:100%;
+    min-height: 30px;
+    margin: 0 auto;
+
+	}
+#page-heading h1{
+    text-align:center;
+}
+
+#content{
+	width: 70%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+@media screen {
+   /*div#menu {position: fixed;}*/
+   * html {overflow-y: hidden;}
+   * html body {overflow-y: auto;height: 100%;padding: 0;}
+   /** html div#Menu {position: absolute;}*/
+}
